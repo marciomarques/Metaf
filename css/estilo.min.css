@@ -1,0 +1,427 @@
+@charset "UTF-8";
+
+@font-face {
+font-family:'LeagueGothicRegular';
+src: url('fontes/LeagueGothicRegular/League_Gothic-webfont.eot?#iefix') format('embedded-opentype'), url('fontes/LeagueGothicRegular/League_Gothic-webfont.woff') format('woff'), url('fontes/LeagueGothicRegular/LeagueGothicRegular/League_Gothic-webfont.ttf') format('truetype'), url('fontes/LeagueGothicRegular/League_Gothic-webfont.svg#LeagueGothicRegular') format('svg');
+font-weight:400;
+font-style:normal;
+}
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td {
+margin:0;
+padding:0
+}
+
+table {
+border-collapse:collapse;
+border-spacing:0
+}
+
+fieldset,img {
+border:0
+}
+
+address,caption,cite,code,dfn,em,strong,th,var {
+font-style:normal;
+font-weight:400
+}
+
+ol,ul {
+list-style:none
+}
+
+caption,th {
+text-align:left
+}
+
+h1,h2,h3,h4,h5,h6 {
+font-size:100%;
+font-weight:400
+}
+
+q:before,q:after {
+content:''
+}
+
+abbr,acronym {
+border:0;
+font-variant:normal
+}
+
+sup {
+vertical-align:text-top
+}
+
+sub {
+vertical-align:text-bottom
+}
+
+input,textarea,select {
+font-family:inherit;
+font-weight:inherit;
+font-size:100%
+}
+
+legend {
+color:#000
+}
+
+a,span,h1,img,div {
+behavior:url(iepngfix.htc)
+}
+
+body {
+font-family:Arial, sans-serif;
+font-size:14px;
+background:url("../images/bg.jpg") repeat center top
+}
+
+a {
+text-decoration:none;
+color:#fff
+}
+
+div.sobre {
+background:#fff;
+-webkit-border-radius:15px;
+-moz-border-radius:15px;
+border-radius:15px;
+-webkit-box-shadow:inset 1px 0 20px 0 #999;
+-moz-box-shadow:inset 1px 0 20px 0 #999;
+box-shadow:inset 1px 0 20px 0 #999;
+border:5px solid #fff;
+padding:20px
+}
+
+.right {
+float:right
+}
+
+.clear {
+clear:both
+}
+
+.center {
+width:960px;
+margin:0 auto
+}
+
+h4 {
+font-size:20px;
+font-weight:700;
+margin:20px 0
+}
+
+.separa {
+display:block;
+height:30px;
+background:url("../images/heading-border.png") no-repeat
+}
+
+#header .left a {
+background:url("../images/logo.png") no-repeat center center;
+width:380px;
+height:63px;
+display:block;
+opacity:0.8px;
+-webkit-transition:all .2s linear;
+-moz-transition:all .2s linear;
+margin:20px 0 0;
+}
+
+#header .left a:hover,#header .left a:focus {
+opacity:1px
+}
+
+ul.carousel,#FrogJS {
+height:450px;
+width:960px
+}
+
+ul.carousel li.item {
+float:left;
+width:180px;
+height:135px;
+list-style:none;
+vertical-align:baseline;
+position:relative;
+top:315px;
+text-align:center
+}
+
+ul.carousel li.item img {
+max-height:135px;
+max-width:180px
+}
+
+ul.carousel li.item.active img.img-color {
+max-height:450px;
+max-width:600px;
+display:inline
+}
+
+ul.carousel li.item.active.first {
+margin-left:180px
+}
+
+ul.carousel li.item.active {
+min-width:600px;
+min-height:450px;
+top:0
+}
+
+ul.carousel li {
+position:relative
+}
+
+ul.carousel li.active .description,#FrogJSCaption {
+display:block;
+color:#fff;
+position:absolute;
+bottom:0;
+width:580px;
+text-align:left;
+background:#000;
+background-color:rgba(0,0,0,0.5);
+padding:10px
+}
+
+#counter {
+margin-left:800px;
+position:absolute;
+top:220px;
+font-family:LeagueGothicRegular, Knockout, Arial
+}
+
+#counter p {
+width:100px;
+font-size:40px;
+text-align:center
+}
+
+#counter p .current-count {
+font-size:60px
+}
+
+#menu-col {
+position:absolute;
+top:100px;
+left: 240px;
+text-transform:uppercase;
+font-family:LeagueGothicRegular, Knockout, Arial;
+z-index:3;
+}
+
+#menu-col > li {
+margin-left:10px;
+max-width:170px;
+display: inline;
+}
+
+#lkesp {
+color:#D91A47
+}
+
+#lkvis {
+color:#B3AB36
+}
+
+#lkcor {
+color:#7A5E8D
+}
+
+#lkcom {
+color:#73AFCC
+}
+
+#btn-next,#btn-prev {
+position:absolute;
+top:340px;
+z-index:2
+}
+
+#btn-prev {
+margin-left:116px
+}
+
+#btn-next {
+margin-left:780px
+}
+
+#header {
+height:125px
+}
+
+#header .right li.separator {
+background:#fff;
+margin:0 5px 0 3px;
+padding:3px 1px 0
+}
+
+#header .right {
+font-family:LeagueGothicRegular, Knockout, Arial
+}
+
+ul.home li {
+display:block;
+float:left;
+width:240px;
+height:450px;
+background:#000
+}
+
+ul.home li a {
+text-align:center;
+width:240px;
+display:block;
+text-transform:uppercase
+}
+
+ul.home li a > span {
+display:block;
+text-align:center;
+height:55px;
+width:240px;
+line-height:55px
+}
+
+#comerciais {
+background:#73AFCC
+}
+
+#comerciais a {
+color:#B7D5E2
+}
+
+#corporativos {
+background:#7A5E8D
+}
+
+#corporativos a {
+color:#BBACC3
+}
+
+#comunicacao {
+background:#B3AB36
+}
+
+#comunicacao a {
+color:#D7D287
+}
+
+#especiais {
+background:#D91A47
+}
+
+#especiais a {
+color:#EC8B9F
+}
+
+#footer {
+}
+
+#footer .right {
+margin-top:14px
+}
+
+#comerciais a,#corporativos a,#comunicacao a,#comunicacao a,#especiais a {
+cursor:pointer
+}
+
+.hr {
+height:15px;
+line-height:15px;
+width:100%;
+margin-top:30px
+}
+
+#siteplan {
+background:url("../images/sitePlan.png") no-repeat center center;
+height:21px;
+width:70px;
+display:block
+}
+
+#siteplan span {
+text-indent:-9999px;
+visibility:hidden
+}
+
+#btn-prev,#btn-next {
+height:29px;
+width:64px;
+display:block
+}
+
+.interna {
+color:#818181
+}
+
+.interna #content {
+font-family:Myriad Pro, Arial, sans-serif
+}
+
+.interna #content h3 {
+font-size:32px;
+font-weight:700;
+text-transform:uppercase;
+padding-bottom:20px
+}
+
+.clientes .item {
+width:212px;
+height: 100px
+}
+
+.item img {
+width:212px;
+height:200px
+}
+
+.sobre-menu li {
+display:inline;
+margin:5px 0
+}
+
+.sobre-menu li a {
+background:#ccc;
+color:#666;
+border-radius:6px;
+padding:2px 8px
+}
+
+.nav-prev-btn,.nav-next-btn {
+margin-top:180px;
+z-index:10;
+cursor:pointer
+}
+
+.left,.nav-prev-btn {
+float:left
+}
+
+#header .left a h1,#btn-prev span,#btn-next span {
+visibility:hidden;
+text-indent:-9999px
+}
+
+#header#header.info div,#header nav ul li,.clientes ul li {
+display:inline
+}
+
+ul.carousel li.item img.img-color,ul.carousel li.item.active img.img-cinza,ul.carousel li.item.hidden,ul.carousel li .description,.home ul.home li img.cinza {
+display:none
+}
+
+.fontface #menu-col,.fontface #header .right {
+font-size:20px
+}
+
+#lkesp:hover,#lkesp:focus,#lkvis:hover,#lkvis:focus,#lkcor:hover,#lkcor:focus,#lkcom:hover,#lkcom:focus,#comerciais a:hover,#comerciais a:focus,#corporativos a:hover,#corporativos a:focus,#comunicacao a:hover,#comunicacao a:focus,#comunicacao a:hover,#comunicacao a:focus,#especiais a:hover,#especiais a:focus,.sobre-menu li a:hover,.sobre-menu li a:focus {
+color:#fff
+}
+
+footer,header,nav{display: block}
+.sobre-menu{
+  margin-top: 10px;
+}
