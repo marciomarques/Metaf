@@ -6,7 +6,7 @@
 
 #horiz_container_outer
 {
-	width:800px;
+	width:940px;
 	overflow-x:hidden;
 	overflow-y:hidden;
 	position:relative;
@@ -61,7 +61,7 @@
 #scrollbar 
 { 
     position:relative; 
-    width:815px; height:12px;
+    width:955px; height:12px;
     display:block;
     font-size:1px;
     top:0px;
@@ -71,7 +71,7 @@
 #track 
 { 
     position:absolute; left:0px; top:0;
-    width:815px; height:12px; 
+    width:955px; height:12px; 
     background: #676767;
     -webkit-border-radius: 15px;
 	-moz-border-radius: 15px;
