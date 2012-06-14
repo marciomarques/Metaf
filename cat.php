@@ -16,10 +16,10 @@ include("includes/header.php");
           <div class="center">
             <div>
               <ul id="menu-col" style="z-index:10">
-                <li><a href="?proj=comerciais" id="lkcom">Ambientes Comerciais</a></li>
-                <li><a href="?proj=corporativo" id="lkcor">Ambientes Corporativo</a></li>
-                <li><a href="?proj=visual" id="lkvis">Comunicação visual</a></li>
-                <li><a href="?proj=especiais" id="lkesp">Projetos Especiais</a></li>
+                <li style="display: inline"><a href="?proj=comerciais" id="lkcom">Ambientes Comerciais</a></li>
+                <li style="display: inline"><a href="?proj=corporativo" id="lkcor">Ambientes Corporativo</a></li>
+                <li style="display: inline"><a href="?proj=visual" id="lkvis">Comunicação visual</a></li>
+                <li style="display: inline"><a href="?proj=especiais" id="lkesp">Projetos Especiais</a></li>
               </ul>
             </div>
             <!--

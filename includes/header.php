@@ -25,20 +25,24 @@ header("Pragma: no-cache");
 
 		<?php if($proj){?>
 		<link rel="stylesheet" type="text/css" href="css/jquery.horizontal.scroll.css" />
-		<link href="css/lightbox.css" type="text/css" rel="stylesheet" media="screen,projection">
+<!-- 		<link href="css/lightbox.css" type="text/css" rel="stylesheet" media="screen,projection"> -->
 		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
 		<script src="js/jquery.horizontal.scroll.js" type="text/javascript"></script>
-		<script type="text/javascript" src="scripts/lightbox.js"></script>
+<!-- 		<script type="text/javascript" src="scripts/lightbox.js"></script> -->
+<script type="text/javascript" src="js/jquery.lightbox-0.5.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/jquery.lightbox-0.5.css" media="screen" />
+
 				
 		<script type="text/javascript">
       tamanhoInterna = 0;
 			jQuery(document).ready(function($){
+		    $("#horiz_container_outer a").lightBox();
         $("#horiz_container li").each(function(){
           tamanhoInterna += $(this).innerWidth();
         });
         tamanhoInterna+=100;
         $("#horiz_container").css("width", tamanhoInterna+"px");
-        console.log(tamanhoInterna);
+        // console.log(tamanhoInterna);
 				$('#horiz_container_outer').horizontalScroll();
 			});
 		
