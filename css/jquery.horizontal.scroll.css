@@ -85,19 +85,18 @@
     -webkit-border-radius: 10px;
 	-moz-border-radius: 10px;
 	border-radius: 10px;
-background-image: -webkit-gradient(
-    linear,
-    left bottom,
-    left top,
-    color-stop(0.39, rgb(229,229,229)),
-    color-stop(0.7, rgb(245,245,245))
-);
-background-image: -moz-linear-gradient(
-    center bottom,
-    rgb(229,229,229) 39%,
-    rgb(245,245,245) 70%
-);
-
+background: #e5e5e5;
+background-image: -moz-linear-gradient(top, #e5e5e5 39%, #f5f5f5 70%);
+background-image: -webkit-gradient(linear, left top, left bottom, color-stop(39%,#e5e5e5), color-stop(70%,#f5f5f5));
+background-image: -webkit-linear-gradient(top, #e5e5e5 39%,#f5f5f5 70%);
+background-image: -o-linear-gradient(top, #e5e5e5 39%,#f5f5f5 70%);
+background-image: -ms-linear-gradient(top, #e5e5e5 39%,#f5f5f5 70%);
+background-image: linear-gradient(top, #e5e5e5 39%,#f5f5f5 70%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5e5e5', endColorstr='#f5f5f5',GradientType=0 );
+/*
+background-image: -webkit-gradient(linear,left bottom,left top,color-stop(0.39, rgb(229,229,229)), color-stop(0.7, rgb(245,245,245)));
+background-image: -moz-linear-gradient(center bottom, rgb(229,229,229) 39%, rgb(245,245,245) 70%);
+*/
 }  
   
 #left_scroll
