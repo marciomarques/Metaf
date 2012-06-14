@@ -42,7 +42,7 @@ header("Pragma: no-cache");
         });
         tamanhoInterna+=100;
         $("#horiz_container").css("width", tamanhoInterna+"px");
-        console.log(tamanhoInterna);
+        // console.log(tamanhoInterna);
 				$('#horiz_container_outer').horizontalScroll();
 			});
 		

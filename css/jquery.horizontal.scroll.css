@@ -9,6 +9,7 @@
 	width:940px;
 	overflow-x:hidden;
 	overflow-y:hidden;
+	overflow: auto;
 	position:relative;
 	height:450px;
 	margin:5px auto;
