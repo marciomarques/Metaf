@@ -13,28 +13,28 @@ include("includes/header.php");
 	  		  <ul class="home">
 	  		    <li id="comerciais">
 	  		      <a href="cat.php?proj=comerciais">
-	  		      	<span>Ambientes comerciais</span>
+	  		      	<span>Ambientes Comerciais</span>
 		  		  	<img src="images/comerciais.jpg" alt="Ambientes comerciais" class="color">
 		  		  	<img src="images/comerciais-hover.png" alt="Ambientes comerciais" class="cinza">
 	  		      </a>
 	  		    </li>
 	  		    <li id="corporativos">
 	  		      <a href="cat.php?proj=corporativos">
-	  		      	<span>Ambientes corporativos</span>
+	  		      	<span>Ambientes Corporativos</span>
 			        <img src="images/corporativos.jpg" alt="Ambientes corporativos" class="color">
 			        <img src="images/corporativos-hover.png" alt="Ambientes corporativos" class="cinza">
 			      </a>
 	  		    </li>
 	  		    <li id="comunicacao">
 	  		      <a href="cat.php?proj=visual">
-					<span>Comunicação visual</span>
+					<span>Comunicação Visual</span>
 					<img src="images/comunicacao.jpg" alt="Comunicação visual" class="color">
 					<img src="images/comunicacao-hover.png" alt="Comunicação visual" class="cinza">
 	  		      </a>
 	  		    </li>
 	  		    <li id="especiais">
 	  		      <a href="cat.php?proj=especiais">
-	  		      	<span>Projetos especiais</span>
+	  		      	<span>Projetos Especiais</span>
 		  		    <img src="images/projetos.jpg" alt="Projetos especiais" class="color">
 		  		    <img src="images/projetos-hover.png" alt="Projetos especiais" class="cinza">
 	  		      </a>
@@ -43,17 +43,6 @@ include("includes/header.php");
 	  		  <div class="clear"></div>
 		  </div>
 		</section>
-<!--
-		<div class="hr">
-			<div>
-			</div>
-			<div class="center">
-				<img src="images/linha.jpg">
-			</div>
-			<div>
-			</div>
-		</div>
--->
 		<div class="clear"></div>
 		<script type="text/javascript">
 			$(document).ready(function() {
